@@ -92,26 +92,38 @@ The project demonstrated how text analytics and machine learning techniques can 
 ├── README.md
 ├── iPhone Social Media & Sentiment Analytics.ipynb
 └── images/
-    ├── sentiment-analysis.png
-    ├── topic-modeling.png
-    └── network-analysis.png
+    ├── network-analysis.png
+    └── sentiment-analysis.png
 ```
 
 ---
 
 ## 📸 Example Visualizations
 
-### Sentiment Analysis
-
-![Sentiment Analysis](images/sentiment-analysis.png)
-
 ### Topic Modeling
 
-![Topic Modeling](images/topic-modeling.png)
+Non-Negative Matrix Factorization (NMF) was used to identify recurring themes within iPhone-related customer reviews.
+
+| Theme | Representative Keywords |
+|---------|---------|
+| Camera Quality | camera, pictures, quality, amazing, photo |
+| Battery Performance | battery, life, longer, lasts |
+| Device Upgrades | iphone, plus, 6s, upgrade, difference |
+| Screen & Phone Size | screen, size, larger, bigger, fit |
+| Ease of Use | easy, use, transition, touch, features |
+| Customer Satisfaction | love, happy, awesome, best, recommend |
+| Apple Product Experience | apple, products, design, features |
+| Switching from Competitors | samsung, galaxy, android, switch, iphone |
 
 ### Network Analysis
 
+The graph below visualizes the top 2,000 mentioned Twitter users within the iPhone discussion network. Nodes represent users, while edges represent mention relationships. Community detection was used to identify clusters of highly connected users and discussion groups.
+
 ![Network Analysis](images/network-analysis.png)
+
+### Sentiment Analysis
+
+![Sentiment Analysis](images/sentiment-analysis.png)
 
 ---
 
