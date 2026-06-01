@@ -123,6 +123,8 @@ The graph below visualizes the top 2,000 mentioned Twitter users within the iPho
 
 ### Sentiment Analysis
 
+Sentiment analysis was performed on iPhone customer reviews to identify common themes within positive feedback. The word cloud below visualizes the most frequently occurring terms, with larger words representing higher occurrence rates. Terms such as *camera*, *easy*, *feature*, *screen*, and *battery* were among the most commonly referenced positive attributes.
+
 ![Sentiment Analysis](images/sentiment-analysis.png)
 
 ---
